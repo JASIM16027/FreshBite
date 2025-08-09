@@ -18,7 +18,7 @@ export function Header({ searchQuery, onSearchChange, onCartClick }: HeaderProps
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className=" top-0 z-50 bg-white shadow-sm border-b">
+    <header className=" top-0 z-50 bg-white shadow-sm border-b fixed justify-between w-full">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
